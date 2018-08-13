@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D3C770A62121102100F82002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C770A52121102100F82002 /* AppDelegate.swift */; };
+		D3C770A82121102100F82002 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C770A72121102100F82002 /* MasterViewController.swift */; };
+		D3C770AA2121102100F82002 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C770A92121102100F82002 /* DetailViewController.swift */; };
+		D3C770AD2121102100F82002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C770AB2121102100F82002 /* Main.storyboard */; };
+		D3C770AF2121103100F82002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C770AE2121103100F82002 /* Assets.xcassets */; };
+		D3C770B22121103100F82002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C770B02121103100F82002 /* LaunchScreen.storyboard */; };
+		D3C770BD2121103200F82002 /* ContactifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C770BC2121103200F82002 /* ContactifyTests.swift */; };
+		D3C770C82121103200F82002 /* ContactifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C770C72121103200F82002 /* ContactifyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D3C770B92121103200F82002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3C7709A2121102000F82002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3C770A12121102000F82002;
+			remoteInfo = Contactify;
+		};
+		D3C770C42121103200F82002 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D3C7709A2121102000F82002 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D3C770A12121102000F82002;
+			remoteInfo = Contactify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D3C770A22121102100F82002 /* Contactify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contactify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C770A52121102100F82002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D3C770A72121102100F82002 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		D3C770A92121102100F82002 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D3C770AC2121102100F82002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3C770AE2121103100F82002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3C770B12121103100F82002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3C770B32121103100F82002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C770B82121103200F82002 /* ContactifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C770BC2121103200F82002 /* ContactifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactifyTests.swift; sourceTree = "<group>"; };
+		D3C770BE2121103200F82002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3C770C32121103200F82002 /* ContactifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3C770C72121103200F82002 /* ContactifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactifyUITests.swift; sourceTree = "<group>"; };
+		D3C770C92121103200F82002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3C7709F2121102000F82002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C770B52121103200F82002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C770C02121103200F82002 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D3C770992121102000F82002 = {
+			isa = PBXGroup;
+			children = (
+				D3C770A42121102100F82002 /* Contactify */,
+				D3C770BB2121103200F82002 /* ContactifyTests */,
+				D3C770C62121103200F82002 /* ContactifyUITests */,
+				D3C770A32121102100F82002 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3C770A32121102100F82002 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3C770A22121102100F82002 /* Contactify.app */,
+				D3C770B82121103200F82002 /* ContactifyTests.xctest */,
+				D3C770C32121103200F82002 /* ContactifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3C770A42121102100F82002 /* Contactify */ = {
+			isa = PBXGroup;
+			children = (
+				D3C770A52121102100F82002 /* AppDelegate.swift */,
+				D3C770A72121102100F82002 /* MasterViewController.swift */,
+				D3C770A92121102100F82002 /* DetailViewController.swift */,
+				D3C770AB2121102100F82002 /* Main.storyboard */,
+				D3C770AE2121103100F82002 /* Assets.xcassets */,
+				D3C770B02121103100F82002 /* LaunchScreen.storyboard */,
+				D3C770B32121103100F82002 /* Info.plist */,
+			);
+			path = Contactify;
+			sourceTree = "<group>";
+		};
+		D3C770BB2121103200F82002 /* ContactifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D3C770BC2121103200F82002 /* ContactifyTests.swift */,
+				D3C770BE2121103200F82002 /* Info.plist */,
+			);
+			path = ContactifyTests;
+			sourceTree = "<group>";
+		};
+		D3C770C62121103200F82002 /* ContactifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D3C770C72121103200F82002 /* ContactifyUITests.swift */,
+				D3C770C92121103200F82002 /* Info.plist */,
+			);
+			path = ContactifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3C770A12121102000F82002 /* Contactify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C770CC2121103200F82002 /* Build configuration list for PBXNativeTarget "Contactify" */;
+			buildPhases = (
+				D3C7709E2121102000F82002 /* Sources */,
+				D3C7709F2121102000F82002 /* Frameworks */,
+				D3C770A02121102000F82002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Contactify;
+			productName = Contactify;
+			productReference = D3C770A22121102100F82002 /* Contactify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D3C770B72121103200F82002 /* ContactifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C770CF2121103200F82002 /* Build configuration list for PBXNativeTarget "ContactifyTests" */;
+			buildPhases = (
+				D3C770B42121103200F82002 /* Sources */,
+				D3C770B52121103200F82002 /* Frameworks */,
+				D3C770B62121103200F82002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3C770BA2121103200F82002 /* PBXTargetDependency */,
+			);
+			name = ContactifyTests;
+			productName = ContactifyTests;
+			productReference = D3C770B82121103200F82002 /* ContactifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D3C770C22121103200F82002 /* ContactifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3C770D22121103200F82002 /* Build configuration list for PBXNativeTarget "ContactifyUITests" */;
+			buildPhases = (
+				D3C770BF2121103200F82002 /* Sources */,
+				D3C770C02121103200F82002 /* Frameworks */,
+				D3C770C12121103200F82002 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D3C770C52121103200F82002 /* PBXTargetDependency */,
+			);
+			name = ContactifyUITests;
+			productName = ContactifyUITests;
+			productReference = D3C770C32121103200F82002 /* ContactifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3C7709A2121102000F82002 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ouay;
+				TargetAttributes = {
+					D3C770A12121102000F82002 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D3C770B72121103200F82002 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D3C770A12121102000F82002;
+					};
+					D3C770C22121103200F82002 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D3C770A12121102000F82002;
+					};
+				};
+			};
+			buildConfigurationList = D3C7709D2121102000F82002 /* Build configuration list for PBXProject "Contactify" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3C770992121102000F82002;
+			productRefGroup = D3C770A32121102100F82002 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3C770A12121102000F82002 /* Contactify */,
+				D3C770B72121103200F82002 /* ContactifyTests */,
+				D3C770C22121103200F82002 /* ContactifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3C770A02121102000F82002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C770B22121103100F82002 /* LaunchScreen.storyboard in Resources */,
+				D3C770AF2121103100F82002 /* Assets.xcassets in Resources */,
+				D3C770AD2121102100F82002 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C770B62121103200F82002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C770C12121103200F82002 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3C7709E2121102000F82002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C770AA2121102100F82002 /* DetailViewController.swift in Sources */,
+				D3C770A82121102100F82002 /* MasterViewController.swift in Sources */,
+				D3C770A62121102100F82002 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C770B42121103200F82002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C770BD2121103200F82002 /* ContactifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C770BF2121103200F82002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3C770C82121103200F82002 /* ContactifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D3C770BA2121103200F82002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3C770A12121102000F82002 /* Contactify */;
+			targetProxy = D3C770B92121103200F82002 /* PBXContainerItemProxy */;
+		};
+		D3C770C52121103200F82002 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D3C770A12121102000F82002 /* Contactify */;
+			targetProxy = D3C770C42121103200F82002 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D3C770AB2121102100F82002 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C770AC2121102100F82002 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3C770B02121103100F82002 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3C770B12121103100F82002 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3C770CA2121103200F82002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D3C770CB2121103200F82002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3C770CD2121103200F82002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BENH958VPA;
+				INFOPLIST_FILE = Contactify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ouay.Contactify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3C770CE2121103200F82002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BENH958VPA;
+				INFOPLIST_FILE = Contactify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ouay.Contactify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D3C770D02121103200F82002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BENH958VPA;
+				INFOPLIST_FILE = ContactifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ouay.ContactifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contactify.app/Contactify";
+			};
+			name = Debug;
+		};
+		D3C770D12121103200F82002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BENH958VPA;
+				INFOPLIST_FILE = ContactifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ouay.ContactifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Contactify.app/Contactify";
+			};
+			name = Release;
+		};
+		D3C770D32121103200F82002 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BENH958VPA;
+				INFOPLIST_FILE = ContactifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ouay.ContactifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Contactify;
+			};
+			name = Debug;
+		};
+		D3C770D42121103200F82002 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BENH958VPA;
+				INFOPLIST_FILE = ContactifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ouay.ContactifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Contactify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3C7709D2121102000F82002 /* Build configuration list for PBXProject "Contactify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C770CA2121103200F82002 /* Debug */,
+				D3C770CB2121103200F82002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C770CC2121103200F82002 /* Build configuration list for PBXNativeTarget "Contactify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C770CD2121103200F82002 /* Debug */,
+				D3C770CE2121103200F82002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C770CF2121103200F82002 /* Build configuration list for PBXNativeTarget "ContactifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C770D02121103200F82002 /* Debug */,
+				D3C770D12121103200F82002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3C770D22121103200F82002 /* Build configuration list for PBXNativeTarget "ContactifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3C770D32121103200F82002 /* Debug */,
+				D3C770D42121103200F82002 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3C7709A2121102000F82002 /* Project object */;
+}
