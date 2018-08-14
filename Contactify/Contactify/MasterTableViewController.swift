@@ -8,7 +8,14 @@
 
 import UIKit
 
+protocol ContactSelectionDelegate: class {
+    func contactSelected(_ newContact: Contact)
+}
+
+
 class MasterTableViewController: UITableViewController {
+
+    weak var delegate: ContactSelectionDelegate?
 
     let contacts = [
         Contact(first_name: "Jerome", last_name: "Crochat", category: "Data Insight", company: "Jumpshot", position: "Director of Product Management", work_phone: "+1(415)992-2054", mobile_phone: "", email: "jerome.crochat@jumpshot.com", where_we_met: "Swissnex EPFL Alumni", what_provide: "", country: "USA", city: "San Francisco"),
@@ -40,10 +47,18 @@ class MasterTableViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         let contact = contacts[indexPath.row]
-        cell.textLabel?.text = contact.first_name
+        cell.textLabel?.text = contact.first_name + " " + contact.last_name + " - " + contact.category
         return cell
     }
     
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let selectedContact = contacts[indexPath.row]
+        delegate?.contactSelected(selectedContact)
+        if let detailViewController = delegate as? DetailViewController,
+            let detailNavigationController = detailViewController.navigationController {
+            splitViewController?.showDetailViewController(detailNavigationController, sender: nil)
+        }
+    }
 
     /*
     // Override to support conditional editing of the table view.

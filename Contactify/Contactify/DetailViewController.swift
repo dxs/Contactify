@@ -10,6 +10,25 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
+    @IBOutlet weak var firstNameLabel: UILabel!
+    @IBOutlet weak var lastNameLabel: UILabel!
+    @IBOutlet weak var positionLabel: UILabel!
+    @IBOutlet weak var companyLabel: UILabel!
+    
+    var contact: Contact? {
+        didSet {
+            refreshUI()
+        }
+    }
+    
+    func refreshUI() {
+        loadViewIfNeeded()
+        firstNameLabel.text = contact?.first_name
+        lastNameLabel.text = contact?.last_name
+        positionLabel.text = contact?.position
+        companyLabel.text = contact?.company
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -32,4 +51,10 @@ class DetailViewController: UIViewController {
     }
     */
 
+}
+
+extension DetailViewController: ContactSelectionDelegate {
+    func contactSelected(_ newContact: Contact) {
+        contact = newContact
+    }
 }
