@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D3C770A62121102100F82002 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C770A52121102100F82002 /* AppDelegate.swift */; };
-		D3C770A82121102100F82002 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C770A72121102100F82002 /* MasterViewController.swift */; };
-		D3C770AA2121102100F82002 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C770A92121102100F82002 /* DetailViewController.swift */; };
-		D3C770AD2121102100F82002 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C770AB2121102100F82002 /* Main.storyboard */; };
-		D3C770AF2121103100F82002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3C770AE2121103100F82002 /* Assets.xcassets */; };
-		D3C770B22121103100F82002 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3C770B02121103100F82002 /* LaunchScreen.storyboard */; };
-		D3C770BD2121103200F82002 /* ContactifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C770BC2121103200F82002 /* ContactifyTests.swift */; };
-		D3C770C82121103200F82002 /* ContactifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3C770C72121103200F82002 /* ContactifyUITests.swift */; };
+		D33C3E3521224E91005A153B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E3421224E91005A153B /* AppDelegate.swift */; };
+		D33C3E3A21224E92005A153B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33C3E3821224E92005A153B /* Main.storyboard */; };
+		D33C3E3C21224EB5005A153B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33C3E3B21224EB5005A153B /* Assets.xcassets */; };
+		D33C3E3F21224EB5005A153B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33C3E3D21224EB5005A153B /* LaunchScreen.storyboard */; };
+		D33C3E4A21224EB7005A153B /* ContactifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E4921224EB7005A153B /* ContactifyTests.swift */; };
+		D33C3E5521224EB7005A153B /* ContactifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E5421224EB7005A153B /* ContactifyUITests.swift */; };
+		D33C3E632122506A005A153B /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E622122506A005A153B /* MasterTableViewController.swift */; };
+		D33C3E652122517B005A153B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E642122517B005A153B /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D3C770B92121103200F82002 /* PBXContainerItemProxy */ = {
+		D33C3E4621224EB7005A153B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D3C7709A2121102000F82002 /* Project object */;
+			containerPortal = D33C3E2921224E91005A153B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D3C770A12121102000F82002;
+			remoteGlobalIDString = D33C3E3021224E91005A153B;
 			remoteInfo = Contactify;
 		};
-		D3C770C42121103200F82002 /* PBXContainerItemProxy */ = {
+		D33C3E5121224EB7005A153B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D3C7709A2121102000F82002 /* Project object */;
+			containerPortal = D33C3E2921224E91005A153B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D3C770A12121102000F82002;
+			remoteGlobalIDString = D33C3E3021224E91005A153B;
 			remoteInfo = Contactify;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D3C770A22121102100F82002 /* Contactify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contactify.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3C770A52121102100F82002 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D3C770A72121102100F82002 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		D3C770A92121102100F82002 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		D3C770AC2121102100F82002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D3C770AE2121103100F82002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D3C770B12121103100F82002 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D3C770B32121103100F82002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3C770B82121103200F82002 /* ContactifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3C770BC2121103200F82002 /* ContactifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactifyTests.swift; sourceTree = "<group>"; };
-		D3C770BE2121103200F82002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3C770C32121103200F82002 /* ContactifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D3C770C72121103200F82002 /* ContactifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactifyUITests.swift; sourceTree = "<group>"; };
-		D3C770C92121103200F82002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33C3E3121224E91005A153B /* Contactify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contactify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33C3E3421224E91005A153B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D33C3E3921224E92005A153B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D33C3E3B21224EB5005A153B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D33C3E3E21224EB5005A153B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D33C3E4021224EB5005A153B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33C3E4521224EB7005A153B /* ContactifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33C3E4921224EB7005A153B /* ContactifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactifyTests.swift; sourceTree = "<group>"; };
+		D33C3E4B21224EB7005A153B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33C3E5021224EB7005A153B /* ContactifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33C3E5421224EB7005A153B /* ContactifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactifyUITests.swift; sourceTree = "<group>"; };
+		D33C3E5621224EB7005A153B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33C3E622122506A005A153B /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
+		D33C3E642122517B005A153B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D3C7709F2121102000F82002 /* Frameworks */ = {
+		D33C3E2E21224E91005A153B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3C770B52121103200F82002 /* Frameworks */ = {
+		D33C3E4221224EB7005A153B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3C770C02121103200F82002 /* Frameworks */ = {
+		D33C3E4D21224EB7005A153B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,54 +76,54 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D3C770992121102000F82002 = {
+		D33C3E2821224E91005A153B = {
 			isa = PBXGroup;
 			children = (
-				D3C770A42121102100F82002 /* Contactify */,
-				D3C770BB2121103200F82002 /* ContactifyTests */,
-				D3C770C62121103200F82002 /* ContactifyUITests */,
-				D3C770A32121102100F82002 /* Products */,
+				D33C3E3321224E91005A153B /* Contactify */,
+				D33C3E4821224EB7005A153B /* ContactifyTests */,
+				D33C3E5321224EB7005A153B /* ContactifyUITests */,
+				D33C3E3221224E91005A153B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D3C770A32121102100F82002 /* Products */ = {
+		D33C3E3221224E91005A153B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D3C770A22121102100F82002 /* Contactify.app */,
-				D3C770B82121103200F82002 /* ContactifyTests.xctest */,
-				D3C770C32121103200F82002 /* ContactifyUITests.xctest */,
+				D33C3E3121224E91005A153B /* Contactify.app */,
+				D33C3E4521224EB7005A153B /* ContactifyTests.xctest */,
+				D33C3E5021224EB7005A153B /* ContactifyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D3C770A42121102100F82002 /* Contactify */ = {
+		D33C3E3321224E91005A153B /* Contactify */ = {
 			isa = PBXGroup;
 			children = (
-				D3C770A52121102100F82002 /* AppDelegate.swift */,
-				D3C770A72121102100F82002 /* MasterViewController.swift */,
-				D3C770A92121102100F82002 /* DetailViewController.swift */,
-				D3C770AB2121102100F82002 /* Main.storyboard */,
-				D3C770AE2121103100F82002 /* Assets.xcassets */,
-				D3C770B02121103100F82002 /* LaunchScreen.storyboard */,
-				D3C770B32121103100F82002 /* Info.plist */,
+				D33C3E3421224E91005A153B /* AppDelegate.swift */,
+				D33C3E3821224E92005A153B /* Main.storyboard */,
+				D33C3E642122517B005A153B /* DetailViewController.swift */,
+				D33C3E622122506A005A153B /* MasterTableViewController.swift */,
+				D33C3E3B21224EB5005A153B /* Assets.xcassets */,
+				D33C3E3D21224EB5005A153B /* LaunchScreen.storyboard */,
+				D33C3E4021224EB5005A153B /* Info.plist */,
 			);
 			path = Contactify;
 			sourceTree = "<group>";
 		};
-		D3C770BB2121103200F82002 /* ContactifyTests */ = {
+		D33C3E4821224EB7005A153B /* ContactifyTests */ = {
 			isa = PBXGroup;
 			children = (
-				D3C770BC2121103200F82002 /* ContactifyTests.swift */,
-				D3C770BE2121103200F82002 /* Info.plist */,
+				D33C3E4921224EB7005A153B /* ContactifyTests.swift */,
+				D33C3E4B21224EB7005A153B /* Info.plist */,
 			);
 			path = ContactifyTests;
 			sourceTree = "<group>";
 		};
-		D3C770C62121103200F82002 /* ContactifyUITests */ = {
+		D33C3E5321224EB7005A153B /* ContactifyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D3C770C72121103200F82002 /* ContactifyUITests.swift */,
-				D3C770C92121103200F82002 /* Info.plist */,
+				D33C3E5421224EB7005A153B /* ContactifyUITests.swift */,
+				D33C3E5621224EB7005A153B /* Info.plist */,
 			);
 			path = ContactifyUITests;
 			sourceTree = "<group>";
@@ -131,13 +131,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D3C770A12121102000F82002 /* Contactify */ = {
+		D33C3E3021224E91005A153B /* Contactify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3C770CC2121103200F82002 /* Build configuration list for PBXNativeTarget "Contactify" */;
+			buildConfigurationList = D33C3E5921224EB7005A153B /* Build configuration list for PBXNativeTarget "Contactify" */;
 			buildPhases = (
-				D3C7709E2121102000F82002 /* Sources */,
-				D3C7709F2121102000F82002 /* Frameworks */,
-				D3C770A02121102000F82002 /* Resources */,
+				D33C3E2D21224E91005A153B /* Sources */,
+				D33C3E2E21224E91005A153B /* Frameworks */,
+				D33C3E2F21224E91005A153B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -145,69 +145,69 @@
 			);
 			name = Contactify;
 			productName = Contactify;
-			productReference = D3C770A22121102100F82002 /* Contactify.app */;
+			productReference = D33C3E3121224E91005A153B /* Contactify.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D3C770B72121103200F82002 /* ContactifyTests */ = {
+		D33C3E4421224EB7005A153B /* ContactifyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3C770CF2121103200F82002 /* Build configuration list for PBXNativeTarget "ContactifyTests" */;
+			buildConfigurationList = D33C3E5C21224EB7005A153B /* Build configuration list for PBXNativeTarget "ContactifyTests" */;
 			buildPhases = (
-				D3C770B42121103200F82002 /* Sources */,
-				D3C770B52121103200F82002 /* Frameworks */,
-				D3C770B62121103200F82002 /* Resources */,
+				D33C3E4121224EB7005A153B /* Sources */,
+				D33C3E4221224EB7005A153B /* Frameworks */,
+				D33C3E4321224EB7005A153B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D3C770BA2121103200F82002 /* PBXTargetDependency */,
+				D33C3E4721224EB7005A153B /* PBXTargetDependency */,
 			);
 			name = ContactifyTests;
 			productName = ContactifyTests;
-			productReference = D3C770B82121103200F82002 /* ContactifyTests.xctest */;
+			productReference = D33C3E4521224EB7005A153B /* ContactifyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D3C770C22121103200F82002 /* ContactifyUITests */ = {
+		D33C3E4F21224EB7005A153B /* ContactifyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D3C770D22121103200F82002 /* Build configuration list for PBXNativeTarget "ContactifyUITests" */;
+			buildConfigurationList = D33C3E5F21224EB7005A153B /* Build configuration list for PBXNativeTarget "ContactifyUITests" */;
 			buildPhases = (
-				D3C770BF2121103200F82002 /* Sources */,
-				D3C770C02121103200F82002 /* Frameworks */,
-				D3C770C12121103200F82002 /* Resources */,
+				D33C3E4C21224EB7005A153B /* Sources */,
+				D33C3E4D21224EB7005A153B /* Frameworks */,
+				D33C3E4E21224EB7005A153B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D3C770C52121103200F82002 /* PBXTargetDependency */,
+				D33C3E5221224EB7005A153B /* PBXTargetDependency */,
 			);
 			name = ContactifyUITests;
 			productName = ContactifyUITests;
-			productReference = D3C770C32121103200F82002 /* ContactifyUITests.xctest */;
+			productReference = D33C3E5021224EB7005A153B /* ContactifyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D3C7709A2121102000F82002 /* Project object */ = {
+		D33C3E2921224E91005A153B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = ouay;
 				TargetAttributes = {
-					D3C770A12121102000F82002 = {
+					D33C3E3021224E91005A153B = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					D3C770B72121103200F82002 = {
+					D33C3E4421224EB7005A153B = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = D3C770A12121102000F82002;
+						TestTargetID = D33C3E3021224E91005A153B;
 					};
-					D3C770C22121103200F82002 = {
+					D33C3E4F21224EB7005A153B = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = D3C770A12121102000F82002;
+						TestTargetID = D33C3E3021224E91005A153B;
 					};
 				};
 			};
-			buildConfigurationList = D3C7709D2121102000F82002 /* Build configuration list for PBXProject "Contactify" */;
+			buildConfigurationList = D33C3E2C21224E91005A153B /* Build configuration list for PBXProject "Contactify" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -215,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = D3C770992121102000F82002;
-			productRefGroup = D3C770A32121102100F82002 /* Products */;
+			mainGroup = D33C3E2821224E91005A153B;
+			productRefGroup = D33C3E3221224E91005A153B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D3C770A12121102000F82002 /* Contactify */,
-				D3C770B72121103200F82002 /* ContactifyTests */,
-				D3C770C22121103200F82002 /* ContactifyUITests */,
+				D33C3E3021224E91005A153B /* Contactify */,
+				D33C3E4421224EB7005A153B /* ContactifyTests */,
+				D33C3E4F21224EB7005A153B /* ContactifyUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D3C770A02121102000F82002 /* Resources */ = {
+		D33C3E2F21224E91005A153B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C770B22121103100F82002 /* LaunchScreen.storyboard in Resources */,
-				D3C770AF2121103100F82002 /* Assets.xcassets in Resources */,
-				D3C770AD2121102100F82002 /* Main.storyboard in Resources */,
+				D33C3E3F21224EB5005A153B /* LaunchScreen.storyboard in Resources */,
+				D33C3E3C21224EB5005A153B /* Assets.xcassets in Resources */,
+				D33C3E3A21224E92005A153B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3C770B62121103200F82002 /* Resources */ = {
+		D33C3E4321224EB7005A153B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3C770C12121103200F82002 /* Resources */ = {
+		D33C3E4E21224EB7005A153B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -255,60 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D3C7709E2121102000F82002 /* Sources */ = {
+		D33C3E2D21224E91005A153B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C770AA2121102100F82002 /* DetailViewController.swift in Sources */,
-				D3C770A82121102100F82002 /* MasterViewController.swift in Sources */,
-				D3C770A62121102100F82002 /* AppDelegate.swift in Sources */,
+				D33C3E652122517B005A153B /* DetailViewController.swift in Sources */,
+				D33C3E3521224E91005A153B /* AppDelegate.swift in Sources */,
+				D33C3E632122506A005A153B /* MasterTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3C770B42121103200F82002 /* Sources */ = {
+		D33C3E4121224EB7005A153B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C770BD2121103200F82002 /* ContactifyTests.swift in Sources */,
+				D33C3E4A21224EB7005A153B /* ContactifyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D3C770BF2121103200F82002 /* Sources */ = {
+		D33C3E4C21224EB7005A153B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3C770C82121103200F82002 /* ContactifyUITests.swift in Sources */,
+				D33C3E5521224EB7005A153B /* ContactifyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D3C770BA2121103200F82002 /* PBXTargetDependency */ = {
+		D33C3E4721224EB7005A153B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D3C770A12121102000F82002 /* Contactify */;
-			targetProxy = D3C770B92121103200F82002 /* PBXContainerItemProxy */;
+			target = D33C3E3021224E91005A153B /* Contactify */;
+			targetProxy = D33C3E4621224EB7005A153B /* PBXContainerItemProxy */;
 		};
-		D3C770C52121103200F82002 /* PBXTargetDependency */ = {
+		D33C3E5221224EB7005A153B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D3C770A12121102000F82002 /* Contactify */;
-			targetProxy = D3C770C42121103200F82002 /* PBXContainerItemProxy */;
+			target = D33C3E3021224E91005A153B /* Contactify */;
+			targetProxy = D33C3E5121224EB7005A153B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D3C770AB2121102100F82002 /* Main.storyboard */ = {
+		D33C3E3821224E92005A153B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D3C770AC2121102100F82002 /* Base */,
+				D33C3E3921224E92005A153B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D3C770B02121103100F82002 /* LaunchScreen.storyboard */ = {
+		D33C3E3D21224EB5005A153B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D3C770B12121103100F82002 /* Base */,
+				D33C3E3E21224EB5005A153B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D3C770CA2121103200F82002 /* Debug */ = {
+		D33C3E5721224EB7005A153B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		D3C770CB2121103200F82002 /* Release */ = {
+		D33C3E5821224EB7005A153B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,7 +430,7 @@
 			};
 			name = Release;
 		};
-		D3C770CD2121103200F82002 /* Debug */ = {
+		D33C3E5A21224EB7005A153B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -448,7 +448,7 @@
 			};
 			name = Debug;
 		};
-		D3C770CE2121103200F82002 /* Release */ = {
+		D33C3E5B21224EB7005A153B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -466,7 +466,7 @@
 			};
 			name = Release;
 		};
-		D3C770D02121103200F82002 /* Debug */ = {
+		D33C3E5D21224EB7005A153B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -487,7 +487,7 @@
 			};
 			name = Debug;
 		};
-		D3C770D12121103200F82002 /* Release */ = {
+		D33C3E5E21224EB7005A153B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -508,7 +508,7 @@
 			};
 			name = Release;
 		};
-		D3C770D32121103200F82002 /* Debug */ = {
+		D33C3E6021224EB7005A153B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -528,7 +528,7 @@
 			};
 			name = Debug;
 		};
-		D3C770D42121103200F82002 /* Release */ = {
+		D33C3E6121224EB7005A153B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -551,43 +551,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D3C7709D2121102000F82002 /* Build configuration list for PBXProject "Contactify" */ = {
+		D33C3E2C21224E91005A153B /* Build configuration list for PBXProject "Contactify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3C770CA2121103200F82002 /* Debug */,
-				D3C770CB2121103200F82002 /* Release */,
+				D33C3E5721224EB7005A153B /* Debug */,
+				D33C3E5821224EB7005A153B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3C770CC2121103200F82002 /* Build configuration list for PBXNativeTarget "Contactify" */ = {
+		D33C3E5921224EB7005A153B /* Build configuration list for PBXNativeTarget "Contactify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3C770CD2121103200F82002 /* Debug */,
-				D3C770CE2121103200F82002 /* Release */,
+				D33C3E5A21224EB7005A153B /* Debug */,
+				D33C3E5B21224EB7005A153B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3C770CF2121103200F82002 /* Build configuration list for PBXNativeTarget "ContactifyTests" */ = {
+		D33C3E5C21224EB7005A153B /* Build configuration list for PBXNativeTarget "ContactifyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3C770D02121103200F82002 /* Debug */,
-				D3C770D12121103200F82002 /* Release */,
+				D33C3E5D21224EB7005A153B /* Debug */,
+				D33C3E5E21224EB7005A153B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D3C770D22121103200F82002 /* Build configuration list for PBXNativeTarget "ContactifyUITests" */ = {
+		D33C3E5F21224EB7005A153B /* Build configuration list for PBXNativeTarget "ContactifyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3C770D32121103200F82002 /* Debug */,
-				D3C770D42121103200F82002 /* Release */,
+				D33C3E6021224EB7005A153B /* Debug */,
+				D33C3E6121224EB7005A153B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D3C7709A2121102000F82002 /* Project object */;
+	rootObject = D33C3E2921224E91005A153B /* Project object */;
 }
