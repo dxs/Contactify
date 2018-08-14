@@ -10,6 +10,11 @@ import UIKit
 
 class MasterTableViewController: UITableViewController {
 
+    let contacts = [
+        Contact(first_name: "Jerome", last_name: "Crochat", category: "Data Insight", company: "Jumpshot", position: "Director of Product Management", work_phone: "+1(415)992-2054", mobile_phone: "", email: "jerome.crochat@jumpshot.com", where_we_met: "Swissnex EPFL Alumni", what_provide: "", country: "USA", city: "San Francisco"),
+        Contact(first_name: "Jhansi", last_name: "Reddy", category: "Health", company: "Maya Clinicals", position: "CEO", work_phone: "+1(650)943-2477", mobile_phone: "+1(408)781-6175", email: "jhansi@mayaclinicals.com", where_we_met: "HealthCare mixer event", what_provide: "Already went to Switzerland, knows people in the USA for HealthCare", country: "USA", city: "San Francisco")
+    ]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -28,12 +33,14 @@ class MasterTableViewController: UITableViewController {
     // MARK: - Table view data source
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 10
+        return contacts.count
     }
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        let contact = contacts[indexPath.row]
+        cell.textLabel?.text = contact.first_name
         return cell
     }
     

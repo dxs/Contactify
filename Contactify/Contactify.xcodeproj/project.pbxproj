@@ -15,6 +15,7 @@
 		D33C3E5521224EB7005A153B /* ContactifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E5421224EB7005A153B /* ContactifyUITests.swift */; };
 		D33C3E632122506A005A153B /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E622122506A005A153B /* MasterTableViewController.swift */; };
 		D33C3E652122517B005A153B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E642122517B005A153B /* DetailViewController.swift */; };
+		D33C3E67212253DB005A153B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E66212253DB005A153B /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		D33C3E5621224EB7005A153B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D33C3E622122506A005A153B /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
 		D33C3E642122517B005A153B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D33C3E66212253DB005A153B /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 			children = (
 				D33C3E3421224E91005A153B /* AppDelegate.swift */,
 				D33C3E3821224E92005A153B /* Main.storyboard */,
+				D33C3E66212253DB005A153B /* Contact.swift */,
 				D33C3E642122517B005A153B /* DetailViewController.swift */,
 				D33C3E622122506A005A153B /* MasterTableViewController.swift */,
 				D33C3E3B21224EB5005A153B /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33C3E67212253DB005A153B /* Contact.swift in Sources */,
 				D33C3E652122517B005A153B /* DetailViewController.swift in Sources */,
 				D33C3E3521224E91005A153B /* AppDelegate.swift in Sources */,
 				D33C3E632122506A005A153B /* MasterTableViewController.swift in Sources */,
