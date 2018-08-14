@@ -10,51 +10,36 @@ import UIKit
 
 class DetailViewController: UIViewController {
 
-    @IBOutlet weak var firstNameLabel: UILabel!
-    @IBOutlet weak var lastNameLabel: UILabel!
-    @IBOutlet weak var positionLabel: UILabel!
-    @IBOutlet weak var companyLabel: UILabel!
-    
-    var contact: Contact? {
-        didSet {
-            refreshUI()
+    @IBOutlet weak var detailDescriptionLabel: UILabel!
+
+
+    func configureView() {
+        // Update the user interface for the detail item.
+        if let contact = contactItem {
+            if let label = detailDescriptionLabel {
+                label.text = contact.first_name
+            }
         }
     }
-    
-    func refreshUI() {
-        loadViewIfNeeded()
-        firstNameLabel.text = contact?.first_name
-        lastNameLabel.text = contact?.last_name
-        positionLabel.text = contact?.position
-        companyLabel.text = contact?.company
-    }
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        // Do any additional setup after loading the view, typically from a nib.
+        configureView()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    var contactItem: Contact? {
+        didSet {
+            // Update the view.
+            configureView()
+        }
     }
-    */
+
 
 }
 
-extension DetailViewController: ContactSelectionDelegate {
-    func contactSelected(_ newContact: Contact) {
-        contact = newContact
-    }
-}

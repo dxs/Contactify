@@ -7,68 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D33C3E3521224E91005A153B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E3421224E91005A153B /* AppDelegate.swift */; };
-		D33C3E3A21224E92005A153B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33C3E3821224E92005A153B /* Main.storyboard */; };
-		D33C3E3C21224EB5005A153B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33C3E3B21224EB5005A153B /* Assets.xcassets */; };
-		D33C3E3F21224EB5005A153B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33C3E3D21224EB5005A153B /* LaunchScreen.storyboard */; };
-		D33C3E4A21224EB7005A153B /* ContactifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E4921224EB7005A153B /* ContactifyTests.swift */; };
-		D33C3E5521224EB7005A153B /* ContactifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E5421224EB7005A153B /* ContactifyUITests.swift */; };
-		D33C3E632122506A005A153B /* MasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E622122506A005A153B /* MasterTableViewController.swift */; };
-		D33C3E652122517B005A153B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E642122517B005A153B /* DetailViewController.swift */; };
-		D33C3E67212253DB005A153B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E66212253DB005A153B /* Contact.swift */; };
+		D33C3E75212264A6005A153B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E74212264A6005A153B /* AppDelegate.swift */; };
+		D33C3E77212264A6005A153B /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E76212264A6005A153B /* MasterViewController.swift */; };
+		D33C3E79212264A6005A153B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E78212264A6005A153B /* DetailViewController.swift */; };
+		D33C3E7C212264A6005A153B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33C3E7A212264A6005A153B /* Main.storyboard */; };
+		D33C3E7E212264B4005A153B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33C3E7D212264B4005A153B /* Assets.xcassets */; };
+		D33C3E81212264B4005A153B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33C3E7F212264B4005A153B /* LaunchScreen.storyboard */; };
+		D33C3E8C212264B4005A153B /* ContactifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E8B212264B4005A153B /* ContactifyTests.swift */; };
+		D33C3E97212264B4005A153B /* ContactifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3E96212264B4005A153B /* ContactifyUITests.swift */; };
+		D33C3EA5212264F8005A153B /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33C3EA4212264F8005A153B /* Contact.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D33C3E4621224EB7005A153B /* PBXContainerItemProxy */ = {
+		D33C3E88212264B4005A153B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D33C3E2921224E91005A153B /* Project object */;
+			containerPortal = D33C3E69212264A6005A153B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D33C3E3021224E91005A153B;
+			remoteGlobalIDString = D33C3E70212264A6005A153B;
 			remoteInfo = Contactify;
 		};
-		D33C3E5121224EB7005A153B /* PBXContainerItemProxy */ = {
+		D33C3E93212264B4005A153B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D33C3E2921224E91005A153B /* Project object */;
+			containerPortal = D33C3E69212264A6005A153B /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D33C3E3021224E91005A153B;
+			remoteGlobalIDString = D33C3E70212264A6005A153B;
 			remoteInfo = Contactify;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D33C3E3121224E91005A153B /* Contactify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contactify.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D33C3E3421224E91005A153B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D33C3E3921224E92005A153B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D33C3E3B21224EB5005A153B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D33C3E3E21224EB5005A153B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D33C3E4021224EB5005A153B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D33C3E4521224EB7005A153B /* ContactifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D33C3E4921224EB7005A153B /* ContactifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactifyTests.swift; sourceTree = "<group>"; };
-		D33C3E4B21224EB7005A153B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D33C3E5021224EB7005A153B /* ContactifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D33C3E5421224EB7005A153B /* ContactifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactifyUITests.swift; sourceTree = "<group>"; };
-		D33C3E5621224EB7005A153B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D33C3E622122506A005A153B /* MasterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterTableViewController.swift; sourceTree = "<group>"; };
-		D33C3E642122517B005A153B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		D33C3E66212253DB005A153B /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		D33C3E71212264A6005A153B /* Contactify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Contactify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33C3E74212264A6005A153B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D33C3E76212264A6005A153B /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		D33C3E78212264A6005A153B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D33C3E7B212264A6005A153B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D33C3E7D212264B4005A153B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D33C3E80212264B4005A153B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D33C3E82212264B4005A153B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33C3E87212264B4005A153B /* ContactifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33C3E8B212264B4005A153B /* ContactifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactifyTests.swift; sourceTree = "<group>"; };
+		D33C3E8D212264B4005A153B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33C3E92212264B4005A153B /* ContactifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33C3E96212264B4005A153B /* ContactifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactifyUITests.swift; sourceTree = "<group>"; };
+		D33C3E98212264B4005A153B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33C3EA4212264F8005A153B /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D33C3E2E21224E91005A153B /* Frameworks */ = {
+		D33C3E6E212264A6005A153B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D33C3E4221224EB7005A153B /* Frameworks */ = {
+		D33C3E84212264B4005A153B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D33C3E4D21224EB7005A153B /* Frameworks */ = {
+		D33C3E8F212264B4005A153B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,55 +78,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D33C3E2821224E91005A153B = {
+		D33C3E68212264A6005A153B = {
 			isa = PBXGroup;
 			children = (
-				D33C3E3321224E91005A153B /* Contactify */,
-				D33C3E4821224EB7005A153B /* ContactifyTests */,
-				D33C3E5321224EB7005A153B /* ContactifyUITests */,
-				D33C3E3221224E91005A153B /* Products */,
+				D33C3E73212264A6005A153B /* Contactify */,
+				D33C3E8A212264B4005A153B /* ContactifyTests */,
+				D33C3E95212264B4005A153B /* ContactifyUITests */,
+				D33C3E72212264A6005A153B /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		D33C3E3221224E91005A153B /* Products */ = {
+		D33C3E72212264A6005A153B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D33C3E3121224E91005A153B /* Contactify.app */,
-				D33C3E4521224EB7005A153B /* ContactifyTests.xctest */,
-				D33C3E5021224EB7005A153B /* ContactifyUITests.xctest */,
+				D33C3E71212264A6005A153B /* Contactify.app */,
+				D33C3E87212264B4005A153B /* ContactifyTests.xctest */,
+				D33C3E92212264B4005A153B /* ContactifyUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D33C3E3321224E91005A153B /* Contactify */ = {
+		D33C3E73212264A6005A153B /* Contactify */ = {
 			isa = PBXGroup;
 			children = (
-				D33C3E3421224E91005A153B /* AppDelegate.swift */,
-				D33C3E3821224E92005A153B /* Main.storyboard */,
-				D33C3E66212253DB005A153B /* Contact.swift */,
-				D33C3E642122517B005A153B /* DetailViewController.swift */,
-				D33C3E622122506A005A153B /* MasterTableViewController.swift */,
-				D33C3E3B21224EB5005A153B /* Assets.xcassets */,
-				D33C3E3D21224EB5005A153B /* LaunchScreen.storyboard */,
-				D33C3E4021224EB5005A153B /* Info.plist */,
+				D33C3E74212264A6005A153B /* AppDelegate.swift */,
+				D33C3E76212264A6005A153B /* MasterViewController.swift */,
+				D33C3E78212264A6005A153B /* DetailViewController.swift */,
+				D33C3E7A212264A6005A153B /* Main.storyboard */,
+				D33C3E7D212264B4005A153B /* Assets.xcassets */,
+				D33C3E7F212264B4005A153B /* LaunchScreen.storyboard */,
+				D33C3E82212264B4005A153B /* Info.plist */,
+				D33C3EA4212264F8005A153B /* Contact.swift */,
 			);
 			path = Contactify;
 			sourceTree = "<group>";
 		};
-		D33C3E4821224EB7005A153B /* ContactifyTests */ = {
+		D33C3E8A212264B4005A153B /* ContactifyTests */ = {
 			isa = PBXGroup;
 			children = (
-				D33C3E4921224EB7005A153B /* ContactifyTests.swift */,
-				D33C3E4B21224EB7005A153B /* Info.plist */,
+				D33C3E8B212264B4005A153B /* ContactifyTests.swift */,
+				D33C3E8D212264B4005A153B /* Info.plist */,
 			);
 			path = ContactifyTests;
 			sourceTree = "<group>";
 		};
-		D33C3E5321224EB7005A153B /* ContactifyUITests */ = {
+		D33C3E95212264B4005A153B /* ContactifyUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D33C3E5421224EB7005A153B /* ContactifyUITests.swift */,
-				D33C3E5621224EB7005A153B /* Info.plist */,
+				D33C3E96212264B4005A153B /* ContactifyUITests.swift */,
+				D33C3E98212264B4005A153B /* Info.plist */,
 			);
 			path = ContactifyUITests;
 			sourceTree = "<group>";
@@ -134,13 +134,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D33C3E3021224E91005A153B /* Contactify */ = {
+		D33C3E70212264A6005A153B /* Contactify */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D33C3E5921224EB7005A153B /* Build configuration list for PBXNativeTarget "Contactify" */;
+			buildConfigurationList = D33C3E9B212264B4005A153B /* Build configuration list for PBXNativeTarget "Contactify" */;
 			buildPhases = (
-				D33C3E2D21224E91005A153B /* Sources */,
-				D33C3E2E21224E91005A153B /* Frameworks */,
-				D33C3E2F21224E91005A153B /* Resources */,
+				D33C3E6D212264A6005A153B /* Sources */,
+				D33C3E6E212264A6005A153B /* Frameworks */,
+				D33C3E6F212264A6005A153B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -148,69 +148,69 @@
 			);
 			name = Contactify;
 			productName = Contactify;
-			productReference = D33C3E3121224E91005A153B /* Contactify.app */;
+			productReference = D33C3E71212264A6005A153B /* Contactify.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D33C3E4421224EB7005A153B /* ContactifyTests */ = {
+		D33C3E86212264B4005A153B /* ContactifyTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D33C3E5C21224EB7005A153B /* Build configuration list for PBXNativeTarget "ContactifyTests" */;
+			buildConfigurationList = D33C3E9E212264B4005A153B /* Build configuration list for PBXNativeTarget "ContactifyTests" */;
 			buildPhases = (
-				D33C3E4121224EB7005A153B /* Sources */,
-				D33C3E4221224EB7005A153B /* Frameworks */,
-				D33C3E4321224EB7005A153B /* Resources */,
+				D33C3E83212264B4005A153B /* Sources */,
+				D33C3E84212264B4005A153B /* Frameworks */,
+				D33C3E85212264B4005A153B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D33C3E4721224EB7005A153B /* PBXTargetDependency */,
+				D33C3E89212264B4005A153B /* PBXTargetDependency */,
 			);
 			name = ContactifyTests;
 			productName = ContactifyTests;
-			productReference = D33C3E4521224EB7005A153B /* ContactifyTests.xctest */;
+			productReference = D33C3E87212264B4005A153B /* ContactifyTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D33C3E4F21224EB7005A153B /* ContactifyUITests */ = {
+		D33C3E91212264B4005A153B /* ContactifyUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D33C3E5F21224EB7005A153B /* Build configuration list for PBXNativeTarget "ContactifyUITests" */;
+			buildConfigurationList = D33C3EA1212264B4005A153B /* Build configuration list for PBXNativeTarget "ContactifyUITests" */;
 			buildPhases = (
-				D33C3E4C21224EB7005A153B /* Sources */,
-				D33C3E4D21224EB7005A153B /* Frameworks */,
-				D33C3E4E21224EB7005A153B /* Resources */,
+				D33C3E8E212264B4005A153B /* Sources */,
+				D33C3E8F212264B4005A153B /* Frameworks */,
+				D33C3E90212264B4005A153B /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D33C3E5221224EB7005A153B /* PBXTargetDependency */,
+				D33C3E94212264B4005A153B /* PBXTargetDependency */,
 			);
 			name = ContactifyUITests;
 			productName = ContactifyUITests;
-			productReference = D33C3E5021224EB7005A153B /* ContactifyUITests.xctest */;
+			productReference = D33C3E92212264B4005A153B /* ContactifyUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D33C3E2921224E91005A153B /* Project object */ = {
+		D33C3E69212264A6005A153B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0940;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = ouay;
 				TargetAttributes = {
-					D33C3E3021224E91005A153B = {
+					D33C3E70212264A6005A153B = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
-					D33C3E4421224EB7005A153B = {
+					D33C3E86212264B4005A153B = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = D33C3E3021224E91005A153B;
+						TestTargetID = D33C3E70212264A6005A153B;
 					};
-					D33C3E4F21224EB7005A153B = {
+					D33C3E91212264B4005A153B = {
 						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = D33C3E3021224E91005A153B;
+						TestTargetID = D33C3E70212264A6005A153B;
 					};
 				};
 			};
-			buildConfigurationList = D33C3E2C21224E91005A153B /* Build configuration list for PBXProject "Contactify" */;
+			buildConfigurationList = D33C3E6C212264A6005A153B /* Build configuration list for PBXProject "Contactify" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -218,37 +218,37 @@
 				en,
 				Base,
 			);
-			mainGroup = D33C3E2821224E91005A153B;
-			productRefGroup = D33C3E3221224E91005A153B /* Products */;
+			mainGroup = D33C3E68212264A6005A153B;
+			productRefGroup = D33C3E72212264A6005A153B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D33C3E3021224E91005A153B /* Contactify */,
-				D33C3E4421224EB7005A153B /* ContactifyTests */,
-				D33C3E4F21224EB7005A153B /* ContactifyUITests */,
+				D33C3E70212264A6005A153B /* Contactify */,
+				D33C3E86212264B4005A153B /* ContactifyTests */,
+				D33C3E91212264B4005A153B /* ContactifyUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D33C3E2F21224E91005A153B /* Resources */ = {
+		D33C3E6F212264A6005A153B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D33C3E3F21224EB5005A153B /* LaunchScreen.storyboard in Resources */,
-				D33C3E3C21224EB5005A153B /* Assets.xcassets in Resources */,
-				D33C3E3A21224E92005A153B /* Main.storyboard in Resources */,
+				D33C3E81212264B4005A153B /* LaunchScreen.storyboard in Resources */,
+				D33C3E7E212264B4005A153B /* Assets.xcassets in Resources */,
+				D33C3E7C212264A6005A153B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D33C3E4321224EB7005A153B /* Resources */ = {
+		D33C3E85212264B4005A153B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D33C3E4E21224EB7005A153B /* Resources */ = {
+		D33C3E90212264B4005A153B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,61 +258,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		D33C3E2D21224E91005A153B /* Sources */ = {
+		D33C3E6D212264A6005A153B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D33C3E67212253DB005A153B /* Contact.swift in Sources */,
-				D33C3E652122517B005A153B /* DetailViewController.swift in Sources */,
-				D33C3E3521224E91005A153B /* AppDelegate.swift in Sources */,
-				D33C3E632122506A005A153B /* MasterTableViewController.swift in Sources */,
+				D33C3EA5212264F8005A153B /* Contact.swift in Sources */,
+				D33C3E79212264A6005A153B /* DetailViewController.swift in Sources */,
+				D33C3E77212264A6005A153B /* MasterViewController.swift in Sources */,
+				D33C3E75212264A6005A153B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D33C3E4121224EB7005A153B /* Sources */ = {
+		D33C3E83212264B4005A153B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D33C3E4A21224EB7005A153B /* ContactifyTests.swift in Sources */,
+				D33C3E8C212264B4005A153B /* ContactifyTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D33C3E4C21224EB7005A153B /* Sources */ = {
+		D33C3E8E212264B4005A153B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D33C3E5521224EB7005A153B /* ContactifyUITests.swift in Sources */,
+				D33C3E97212264B4005A153B /* ContactifyUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D33C3E4721224EB7005A153B /* PBXTargetDependency */ = {
+		D33C3E89212264B4005A153B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D33C3E3021224E91005A153B /* Contactify */;
-			targetProxy = D33C3E4621224EB7005A153B /* PBXContainerItemProxy */;
+			target = D33C3E70212264A6005A153B /* Contactify */;
+			targetProxy = D33C3E88212264B4005A153B /* PBXContainerItemProxy */;
 		};
-		D33C3E5221224EB7005A153B /* PBXTargetDependency */ = {
+		D33C3E94212264B4005A153B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D33C3E3021224E91005A153B /* Contactify */;
-			targetProxy = D33C3E5121224EB7005A153B /* PBXContainerItemProxy */;
+			target = D33C3E70212264A6005A153B /* Contactify */;
+			targetProxy = D33C3E93212264B4005A153B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D33C3E3821224E92005A153B /* Main.storyboard */ = {
+		D33C3E7A212264A6005A153B /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D33C3E3921224E92005A153B /* Base */,
+				D33C3E7B212264A6005A153B /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D33C3E3D21224EB5005A153B /* LaunchScreen.storyboard */ = {
+		D33C3E7F212264B4005A153B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D33C3E3E21224EB5005A153B /* Base */,
+				D33C3E80212264B4005A153B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -320,7 +320,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D33C3E5721224EB7005A153B /* Debug */ = {
+		D33C3E99212264B4005A153B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -380,7 +380,7 @@
 			};
 			name = Debug;
 		};
-		D33C3E5821224EB7005A153B /* Release */ = {
+		D33C3E9A212264B4005A153B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,7 +434,7 @@
 			};
 			name = Release;
 		};
-		D33C3E5A21224EB7005A153B /* Debug */ = {
+		D33C3E9C212264B4005A153B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -452,7 +452,7 @@
 			};
 			name = Debug;
 		};
-		D33C3E5B21224EB7005A153B /* Release */ = {
+		D33C3E9D212264B4005A153B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -470,7 +470,7 @@
 			};
 			name = Release;
 		};
-		D33C3E5D21224EB7005A153B /* Debug */ = {
+		D33C3E9F212264B4005A153B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -491,7 +491,7 @@
 			};
 			name = Debug;
 		};
-		D33C3E5E21224EB7005A153B /* Release */ = {
+		D33C3EA0212264B4005A153B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -512,7 +512,7 @@
 			};
 			name = Release;
 		};
-		D33C3E6021224EB7005A153B /* Debug */ = {
+		D33C3EA2212264B4005A153B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -532,7 +532,7 @@
 			};
 			name = Debug;
 		};
-		D33C3E6121224EB7005A153B /* Release */ = {
+		D33C3EA3212264B4005A153B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -555,43 +555,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D33C3E2C21224E91005A153B /* Build configuration list for PBXProject "Contactify" */ = {
+		D33C3E6C212264A6005A153B /* Build configuration list for PBXProject "Contactify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D33C3E5721224EB7005A153B /* Debug */,
-				D33C3E5821224EB7005A153B /* Release */,
+				D33C3E99212264B4005A153B /* Debug */,
+				D33C3E9A212264B4005A153B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D33C3E5921224EB7005A153B /* Build configuration list for PBXNativeTarget "Contactify" */ = {
+		D33C3E9B212264B4005A153B /* Build configuration list for PBXNativeTarget "Contactify" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D33C3E5A21224EB7005A153B /* Debug */,
-				D33C3E5B21224EB7005A153B /* Release */,
+				D33C3E9C212264B4005A153B /* Debug */,
+				D33C3E9D212264B4005A153B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D33C3E5C21224EB7005A153B /* Build configuration list for PBXNativeTarget "ContactifyTests" */ = {
+		D33C3E9E212264B4005A153B /* Build configuration list for PBXNativeTarget "ContactifyTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D33C3E5D21224EB7005A153B /* Debug */,
-				D33C3E5E21224EB7005A153B /* Release */,
+				D33C3E9F212264B4005A153B /* Debug */,
+				D33C3EA0212264B4005A153B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D33C3E5F21224EB7005A153B /* Build configuration list for PBXNativeTarget "ContactifyUITests" */ = {
+		D33C3EA1212264B4005A153B /* Build configuration list for PBXNativeTarget "ContactifyUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D33C3E6021224EB7005A153B /* Debug */,
-				D33C3E6121224EB7005A153B /* Release */,
+				D33C3EA2212264B4005A153B /* Debug */,
+				D33C3EA3212264B4005A153B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D33C3E2921224E91005A153B /* Project object */;
+	rootObject = D33C3E69212264A6005A153B /* Project object */;
 }
